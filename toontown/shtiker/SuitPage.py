@@ -19,17 +19,17 @@ PANEL_COLORS = (Vec4(0.8, 0.78, 0.77, 1),
  Vec4(0.75, 0.78, 0.8, 1),
  Vec4(0.75, 0.82, 0.79, 1),
  Vec4(0.825, 0.76, 0.77, 1),
- Vec4(0.77, 0.77, 0.82, 1))
+ Vec4(0.85, 0.85, 0.85, 1.0))
 PANEL_COLORS_COMPLETE1 = (Vec4(0.7, 0.725, 0.545, 1),
  Vec4(0.625, 0.725, 0.65, 1),
  Vec4(0.6, 0.75, 0.525, 1),
  Vec4(0.675, 0.675, 0.55, 1),
- Vec4(0.5625, 0.5625, 0.75, 1))
+ Vec4(0.7, 0.7, 0.7, 1))
 PANEL_COLORS_COMPLETE2 = (Vec4(0.9, 0.725, 0.32, 1),
  Vec4(0.825, 0.725, 0.45, 1),
  Vec4(0.8, 0.75, 0.325, 1),
  Vec4(0.875, 0.675, 0.35, 1),
- Vec4(0.35, 0.675, 0.875, 1))
+ Vec4(0.7375, 0.6, 0.3625, 1))
 SHADOW_SCALE_POS = ((1.225,
   0,
   10,
@@ -199,7 +199,7 @@ class SuitPage(ShtikerPage.ShtikerPage):
         icon = icons.find('**/sales_icon')
         self.salesRadarButton = DirectButton(parent=self.iconNode, relief=None, state=DGG.DISABLED, image=(icon, icon, icon), image_scale=(0.03375, 1, 0.045), image2_color=Vec4(1.0, 1.0, 1.0, 0.75), pos=(-0.2, 10, -0.575), command=self.toggleRadar, extraArgs=[3])
         self.radarButtons.append(self.salesRadarButton)
-        icon = icons.find('**/money_icon')
+        icon = icons.find('**/boss_icon')
         self.darkRadarButton = DirectButton(parent=self.iconNode, relief=None, state=DGG.DISABLED, image=(icon, icon, icon), image_scale=(0.03375, 1, 0.045), image2_color=Vec4(1.0, 1.0, 1.0, 0.75), pos=(-0.2, 10, -0.575), command=self.toggleRadar, extraArgs=[4])
         self.radarButtons.append(self.moneyRadarButton)
         for radarButton in self.radarButtons:

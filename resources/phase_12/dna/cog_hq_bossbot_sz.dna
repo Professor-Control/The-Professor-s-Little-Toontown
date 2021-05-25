@@ -1,0 +1,20 @@
+store_suit_point [ 1, STREET_POINT, -17.883 -45.112 0.025 ]
+store_suit_point [ 2, STREET_POINT, 42.373 -105.033 0.025 ]
+store_suit_point [ 3, STREET_POINT, 82.319 -34.236 0.025 ]
+store_suit_point [ 4, STREET_POINT, 63.75 75 0.025 ]
+store_suit_point [ 5, STREET_POINT, 5.988 45.925 0.025 ]
+store_suit_point [ 6, STREET_POINT, -16.598 -55.040 0.025 ]
+
+group "bossbotHQExterior" [
+ visgroup "10000" [
+  vis [ "10000"  ]
+  suit_edge [ 1 2 ]
+  suit_edge [ 2 3 ]
+  suit_edge [ 3 4 ]
+  suit_edge [ 4 5 ]
+  suit_edge [ 5 6 ]
+  suit_edge [ 6 1 ]
+  battle_cell [ 20 20 53.435 -7.526 0.025 ]
+ ]
+]
+

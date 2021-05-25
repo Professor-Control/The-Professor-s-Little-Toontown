@@ -27,3 +27,6 @@ Credits:
 * Reverse-engineered Toontown Online client/server source code is property of The Walt Disney Company.
 * [Benjamin8693](https://github.com/Benjamin8693)
 * [Toontown School House](https://github.com/Toontown-Open-Source-Initiative/Toontown-School-House)
+* [Toontown Rewritten](https://toontownrewritten.com/)
+* [Toontown: Corporate Clash](https://corporateclash.net/)
+* [Toontown 2 Revised](https://github.com/TrueBlueDogemon/Toontown-2-Revised)
